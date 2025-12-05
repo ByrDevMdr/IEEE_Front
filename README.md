@@ -45,10 +45,13 @@ Una vez que usted se encuentre en el directorio deseado, deberá de ejecutar el 
 
 # Tecnologías usadas:
 * HTML y CSS
+
 ![alt text](Images/image-14.png)
 
 * Vanilla JS
+
 ![alt text](Images/image-15.png)
 
 * OMDb API
+
 ![alt text](Images/image-16.png)
