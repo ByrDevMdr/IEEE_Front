@@ -2,11 +2,12 @@
 Para poder descargar el proyecto, es necesario abrir una ventana de cmd: 
         Se deberá pulsar el atajo de teclas:
             ![alt text](Images/image-1.png)
-        Una vez que se tiene ese comando, aparecerá una ventana emergente a la cual le debera escribir:
+
+Una vez que se tiene ese comando, aparecerá una ventana emergente a la cual le debera escribir:
             ![alt text](Images/image1.1.png)
-        Dentro del cmd, deberá ubicarse en un directorio/Carpeta que sea reconocible por usted:
+Dentro del cmd, deberá ubicarse en un directorio/Carpeta que sea reconocible por usted:
            Ej: ![alt text](Images/image-2.png)
-        Una vez que usted se encuentre en el directorio deseado, deberá de ejecutar el siguiente comando:
+Una vez que usted se encuentre en el directorio deseado, deberá de ejecutar el siguiente comando:
             ![alt text](Images/image-3.png)                
     Presentación:
 1- En la parte superior derecha, se encuentra un botón que al darle click, se
