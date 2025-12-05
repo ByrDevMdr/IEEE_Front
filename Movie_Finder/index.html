@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MovieFinder - Inicio</title>
+  <link rel="stylesheet" href="style/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">🎬 MovieFinder</div>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="pages/favorites.html">Favoritos</a>
+        <a href="pages/watchlist.html">Watchlist</a>
+        <button class="theme-switcher" id="theme-switcher">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <h1>Encuentra tus películas y series favoritas</h1>
+      <div class="search-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="Buscar por título...">
+        <button id="search-btn" class="search-btn">Buscar</button>
+      </div>
+    </section>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="trending">Trending</button>
+      <button class="filter-btn" data-filter="movie">Películas</button>
+      <button class="filter-btn" data-filter="series">Series</button>
+      <button class="filter-btn" data-filter="action">Acción</button>
+      <button class="filter-btn" data-filter="comedy">Comedia</button>
+    </div>
+
+    <h2 class="section-title">Películas Destacadas</h2>
+    <div id="trending-movies" class="movies-grid"></div>
+
+    <h2 class="section-title">Series Populares</h2>
+    <div id="popular-series" class="movies-grid"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 MovieFinder. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

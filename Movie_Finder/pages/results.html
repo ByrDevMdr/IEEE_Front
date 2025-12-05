@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resultados - MovieFinder</title>
+  <link rel="stylesheet" href="../style/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">🎬 MovieFinder</div>
+      <nav class="nav-links">
+        <a href="../index.html">Inicio</a>
+        <a href="favorites.html">Favoritos</a>
+        <a href="watchlist.html">Watchlist</a>
+        <button class="theme-switcher" id="theme-switcher">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="search-section">
+      <div class="search-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="Buscar...">
+        <button id="search-btn" class="search-btn">Buscar</button>
+      </div>
+    </div>
+
+    <button class="toggle-filters" id="toggle-filters">Filtros Avanzados</button>
+    <div class="advanced-filters" id="advanced-filters">
+      <div class="filter-row">
+        <select class="filter-select" id="filter-genre">
+          <option value="">Género</option>
+          <option value="Action">Acción</option>
+          <option value="Comedy">Comedia</option>
+          <option value="Drama">Drama</option>
+          <option value="Horror">Terror</option>
+        </select>
+        <input type="number" class="filter-input" id="filter-year" placeholder="Año" min="1900" max="2025">
+        <select class="filter-select" id="filter-type">
+          <option value="">Tipo</option>
+          <option value="movie">Película</option>
+          <option value="series">Serie</option>
+        </select>
+      </div>
+      <button class="apply-filters" id="apply-filters">Aplicar</button>
+    </div>
+
+    <div class="view-toggle">
+      <button class="view-btn active" data-view="grid">Cuadrícula</button>
+      <button class="view-btn" data-view="list">Lista</button>
+    </div>
+
+    <div id="results-grid" class="movies-grid"></div>
+    <ul id="results-list" class="movies-list"></ul>
+    <div id="no-results" class="no-results" style="display: none;">No se encontraron resultados.</div>
+
+    <div class="pagination" id="pagination"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 MovieFinder</p>
+  </footer>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

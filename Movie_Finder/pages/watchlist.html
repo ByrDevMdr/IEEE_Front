@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Watchlist - MovieFinder</title>
+  <link rel="stylesheet" href="../style/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">🎬 MovieFinder</div>
+      <nav class="nav-links">
+        <a href="../index.html">Inicio</a>
+        <a href="favorites.html">Favoritos</a>
+        <a href="watchlist.html" class="active">Watchlist</a>
+        <button class="theme-switcher" id="theme-switcher">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="section-title">Mi Watchlist</h2>
+    <div id="watchlist-list" class="watchlist-list"></div>
+    <div id="no-watchlist" class="no-results" style="display: none;">
+      Tu lista de pendientes está vacía.
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 MovieFinder</p>
+  </footer>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

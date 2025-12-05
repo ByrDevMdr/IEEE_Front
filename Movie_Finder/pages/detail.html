@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalle - MovieFinder</title>
+  <link rel="stylesheet" href="../style/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">🎬 MovieFinder</div>
+      <nav class="nav-links">
+        <a href="../index.html">Inicio</a>
+        <a href="favorites.html">Favoritos</a>
+        <a href="watchlist.html">Watchlist</a>
+        <button class="theme-switcher" id="theme-switcher">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="movie-detail">
+      <div class="nav-buttons">
+        <button class="back-btn" onclick="history.back()">← Volver</button>
+      </div>
+
+      <div class="detail-header">
+        <img src="" alt="Poster" class="detail-poster" id="detail-poster">
+        <div class="detail-info">
+          <h1 class="detail-title" id="detail-title"></h1>
+          <div class="detail-rating" id="detail-rating"></div>
+          <div class="detail-meta" id="detail-meta"></div>
+          <div class="detail-actions">
+            <button class="favorite-btn" id="favorite-btn">❤️ Agregar a Favoritos</button>
+            <button class="watchlist-btn" id="watchlist-btn">➕ Añadir a Watchlist</button>
+            <button class="share-btn" id="share-btn">📤 Compartir</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-synopsis" id="detail-synopsis"></div>
+      <div class="detail-cast">
+        <h3>Reparto</h3>
+        <div class="cast-list" id="detail-cast"></div>
+      </div>
+
+      <div class="trailer-container" id="trailer-container" style="display: none;">
+        <h3>Tráiler</h3>
+        <iframe id="trailer-iframe" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="similar-movies">
+        <h3 class="similar-title">Títulos Similares</h3>
+        <div class="similar-grid" id="similar-movies"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MovieFinder</p>
+  </footer>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
