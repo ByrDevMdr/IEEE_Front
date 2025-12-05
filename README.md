@@ -12,7 +12,7 @@ Dentro del cmd, deberá ubicarse en un directorio/Carpeta que sea reconocible po
 Una vez que usted se encuentre en el directorio deseado, deberá de ejecutar el siguiente comando:
             ![alt text](Images/image-3.png)                
     
-# Presentación del proyecto
+# Presentación del proyecto 
 
 1- En la parte superior derecha, se encuentra un botón que al darle click, se
 ![alt text](Images/image.png)
@@ -42,3 +42,13 @@ Una vez que usted se encuentre en el directorio deseado, deberá de ejecutar el 
 9- Mismo caso para la opcion del watch list.
 ![alt text](Images/image-12.png)
 ![alt text](Images/image-13.png)
+
+# Tecnologías usadas:
+* HTML y CSS
+![alt text](Images/image-14.png)
+
+* Vanilla JS
+![alt text](Images/image-15.png)
+
+* OMDb API
+![alt text](Images/image-16.png)
